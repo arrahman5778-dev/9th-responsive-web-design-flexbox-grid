@@ -1,0 +1,191 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+/* ========================
+    common style start
+======================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #F3F1FF;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container {
+  width: 870px;
+  background: #ffffff;
+  padding: 0px 30px;
+  margin-top: 21px;
+  ;
+  border-radius: 5px;
+}
+
+/* ========================
+    common style End
+======================== */
+/* ==========================
+    Top players Part start
+========================== */
+/* .top-players {
+  margin-bottom: 20px;
+} */
+
+.section-title {
+  font-size: 24px;
+  color: #562EFF;
+  padding: 30px 0;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 28px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+}
+
+.player img {
+  width: 56px;
+  height: 56px;
+}
+
+.player-name {
+  padding-left: 16px;
+}
+
+hr {
+  margin-top: 30px;
+  border: 1px solid #D1D1D1;
+}
+
+/* ==========================
+    Top players Part End
+========================== */
+
+/* ==========================
+    Top Blogs Part start
+========================== */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+}
+
+.blog {
+  display: flex;
+}
+
+.blog-info {
+  margin-left: 16px;
+}
+
+.blog-title {
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.blog-athour {
+  color: #9F9F9F;
+  font-size: 16px;
+}
+
+.blog-athour a {
+  color: #562EFF;
+  font-size: 16px;
+}
+
+/* ==========================
+    Top Blogs Part End
+========================== */
+
+/* ==========================
+   Lates Course Part Start
+========================== */
+.courses {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course .course-banner img {
+  width: 266px;
+  height: 141px;
+}
+
+.course-title {
+  color: #1E1E1E;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 20.0336px;
+  padding: 15px 0 7px 0;
+}
+
+.course-title span {
+  display: block;
+}
+
+.course-athour {
+  padding-bottom: 5px;
+}
+
+.course-athour {
+  color: #ED6B4F;
+  font-size: 14.6913px;
+  font-weight: normal;
+}
+
+.fa-star {
+  font-size: 12px;
+}
+
+.fa-star.fill-gold {
+  color: #FFC014;
+}
+
+.fa-star.empty {
+  color: #AEAEAE;
+}
+.course-info{
+  color: #A2A2A2;
+  font-size: 14.6913px;
+}
+.course-info p{
+  color: #A2A2A2;
+  
+}
+
+
+/* ==========================
+   Lates Course Part End
+========================== */
+
+
+
+
+
+
+
+
+
+
