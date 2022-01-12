@@ -56,7 +56,7 @@ main {
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap:70px;
+  grid-row-gap: 70px;
 }
 
 .player {
@@ -129,10 +129,12 @@ hr {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 23px;
 }
-.course{
+
+.course {
   width: 252px;
   height: 269px;
 }
+
 .course .course-banner img {
   width: 224px;
   height: 104px;
@@ -198,3 +200,35 @@ hr {
 /* ==========================
    Lates Course Part End
 ========================== */
+
+/* ==========================
+      Media Query
+========================== */
+@media only screen and (max-width:688px) {
+  .container {
+    width: 100%;
+  }
+
+  .players, .blogs,.courses {
+    background: #ffbfbf5b;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .player, .blog{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px){
+  .container{
+    width: 100%;
+  }
+  .players{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .courses{
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+ 
+}
